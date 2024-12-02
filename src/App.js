@@ -183,6 +183,7 @@ function App() {
             <HashRouter>
                 <Header />
                 <Routes>
+                    <Route path="" element={<Home articles={articlesData} />} />
                     <Route path="home" element={<Home articles={articlesData} />} />
 
                     
