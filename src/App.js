@@ -176,19 +176,19 @@ export {titleText,MarkdownRenderer,MarkdownRendererString,useMarkdownStringSub};
 function App() {
     return (
         <div className="App">
-            <BrowserRouter basename="/<portfolio>">
+            <BrowserRouter basename="/portfolio">
                 <Header />
                 <Routes>
-                    <Route path="/home" element={<Home articles={articlesData} />} />
+                    <Route path="home" element={<Home articles={articlesData} />} />
 
                     
-                    <Route path="/about" element={<About />} />
+                    <Route path="about" element={<About />} />
                     <Route
-                        path="/tags/:tag"
+                        path="tags/:tag"
                         element={<TagList articles={articlesData} />}
                     />
                     <Route
-                        path="/articles/:slug"
+                        path="articles/:slug"
                         element={<Article articles={articlesData} />}
                     />
                 </Routes>
