@@ -176,7 +176,7 @@ export {titleText,MarkdownRenderer,MarkdownRendererString,useMarkdownStringSub};
 function App() {
     return (
         <div className="App">
-            <BrowserRouter>
+            <BrowserRouter basename="/portfolio">
                 <Header />
                 <Routes>
                     <Route path="/home" element={<Home articles={articlesData} />} />
