@@ -32,7 +32,18 @@ function Article({ articles, isDarkMode }) {
                             key={index}
                             style={{ marginLeft: `${(heading.level - 1) * 20}px` }}
                         >
-                            <a href={`#${heading.id}`}>{heading.text}</a>
+                            <a
+                                href={`#${heading.id}`}
+                                onClick={(e) => {
+                                    e.preventDefault(); // Prevent default anchor behavior
+                                    const element = document.getElementById(heading.id);
+                                    if (element) {
+                                        element.scrollIntoView({ behavior: "smooth" });
+                                    }
+                                }}
+                            >
+                                {heading.text}
+                            </a>
                         </li>
                     ))}
                 </ul>
