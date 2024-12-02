@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 
 function Header() {
     const [isDarkMode, setIsDarkMode] = useState(false);
-    const [logoSrc, setLogoSrc] = useState('%PUBLIC_URL%/markdown/img/websitelogo2.ico'); // Default logo
+    const [logoSrc, setLogoSrc] = useState('/public/markdown/img/websitelogo2.ico'); // Default logo
 
     const changeLogo = (newSrc) => {
         setLogoSrc(newSrc);
@@ -15,10 +15,10 @@ function Header() {
         const savedTheme = localStorage.getItem('theme');
         if (savedTheme === '') {
             setIsDarkMode(true);
-            changeLogo("%PUBLIC_URL%/markdown/img/websitelogo2.ico");
+            changeLogo("/markdown/img/websitelogo2.ico");
             document.body.classList.add('dark-mode');
         } else {
-            changeLogo("%PUBLIC_URL%/markdown/img/websitelogo1.ico");
+            changeLogo("/markdown/img/websitelogo1.ico");
             setIsDarkMode(false);
             document.body.classList.remove('dark-mode');
         }
@@ -27,12 +27,12 @@ function Header() {
     const toggleTheme = () => {
         if (isDarkMode) {
             setIsDarkMode(false);
-            changeLogo("%PUBLIC_URL%/markdown/img/websitelogo1.ico");
+            changeLogo("/markdown/img/websitelogo1.ico");
             document.body.classList.remove('dark-mode');
             localStorage.setItem('theme', 'light-mode');
         } else {
             setIsDarkMode(true);
-            changeLogo("%PUBLIC_URL%/markdown/img/websitelogo2.ico");
+            changeLogo("/markdown/img/websitelogo2.ico");
             document.body.classList.add('dark-mode');
             localStorage.setItem('theme', '');
         }

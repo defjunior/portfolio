@@ -3,7 +3,7 @@
 Open studio and load a new baseplate like you did in Topic #1
 Make sure the **Properties **and the **Explorer **tabs are visible, If not, check the **View **Tab which is on the highest bar in studio, along with the FILE button you used to open up a new baseplate.
 
-![Alt Text](%PUBLIC_URL%/markdown/img/t2img1.png)
+![Alt Text](/markdown/img/t2img1.png)
 
 Those tabs at the top are pretty important for navigating studio, they contain a majority of the tools and ways to view extra utilities you will often use in studio
 1. Make sure you have the workspace selected in the **Explorer **, Click on it
@@ -12,7 +12,7 @@ Those tabs at the top are pretty important for navigating studio, they contain a
 4. Right click on "NewPart" , and select **Insert Object > Script**
 You can search for it, but generally it should be around the top
 
-![Alt Text](%PUBLIC_URL%/markdown/img/t2img2.png)
+![Alt Text](/markdown/img/t2img2.png)
 
 5.  Double click on the script you inserted into the part, This will open the script editor
 
@@ -23,7 +23,7 @@ print("Hello, world!")
 A **string** is a datatype in lua, it is defined by two "quotes" surrounding text. the **print** function is a built-in function to Lua, it prints out text in the **Output** the **Output** is a window that prints out all relevant information, errors, warnings, and stack traces.
  You can view this window by opening the **View** tab and making sure output is true, or by right clicking the tab.
  
- ![Alt Text](%PUBLIC_URL%/markdown/img/t2img3.png)
+ ![Alt Text](/markdown/img/t2img3.png)
 
 What that placeholder code does, is it prints out "Hello, world!" to the output, very simple
 the basic form of a function in Lua is 

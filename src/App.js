@@ -2,7 +2,7 @@ import './App.css';
 import Header from './Header';
 import Home from './Home';
 import About from './About';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import articlesData from './articledata';
 import Article from './Article';
 import TagList from './TagList';
@@ -175,23 +175,23 @@ export {titleText,MarkdownRenderer,MarkdownRendererString,useMarkdownStringSub};
 function App() {
     return (
         <div className="App">
-            <HashRouter>
+            <BrowserRouter >
                 <Header />
                 <Routes>
-                    <Route path="home" element={<Home articles={articlesData} />} />
+                    <Route path="/home" element={<Home articles={articlesData} />} />
 
                     
-                    <Route path="about" element={<About />} />
+                    <Route path="/about" element={<About />} />
                     <Route
-                        path="tags/:tag"
+                        path="/tags/:tag"
                         element={<TagList articles={articlesData} />}
                     />
                     <Route
-                        path="articles/:slug"
+                        path="/articles/:slug"
                         element={<Article articles={articlesData} />}
                     />
                 </Routes>
-            </HashRouter>
+            </BrowserRouter>
         </div>
     );
 }
