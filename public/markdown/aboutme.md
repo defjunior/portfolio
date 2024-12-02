@@ -1,4 +1,4 @@
-# About Me
+
 * I am an artist
 * I really enjoy programming and math
 ### Beginning
