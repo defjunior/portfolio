@@ -11,7 +11,6 @@
 * I learned the majority of my fundamentals trying to make this game, including **object oriented programming**, how to design systems, and basic skills in image editing, **3D modelling software**, and began experimenting with other things
 * I began a side project whenever I was exhausted from working, called **Rift**, a class-based fighting game
     * It didn't get very far, but gave me better insight into modular code and systems design
-![Alt Text](./markdown/img/t1img1.png)
 ### High School
 * Since Middle school, I began taking my work more seriously, rewriting a majority of the code written for **Squad Delta**, and venturing into making other games
 * I rewrote the entire system of **Squad Delta** to be object-oriented and this allowed me to try and make an AI which would be able to play the game, to fill lobbies before the game has enough players
