@@ -113,6 +113,11 @@ function MarkdownRenderer({ filePath, onContentLoaded }) {
                           </code>
                       );
                   },
+                  a: ({ node, ...props }) => (
+                    <a {...props} target="_blank" rel="noopener noreferrer">
+                        {props.children}
+                    </a>
+                    ),
                   img: ({ node, ...props }) => (
                       <img
                           {...props}

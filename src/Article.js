@@ -25,18 +25,19 @@ function Article({ articles, isDarkMode }) {
          
             <div className="article_top">
             <div className="toc">
-                    <h2>Table of Contents</h2>
-                    <ul>
-                        {headings.map((heading, index) => (
-                            <li
-                                key={index}
-                                style={{ marginLeft: `${(heading.level - 1) * 20}px` }}
-                            >
-                                <a href={`#/${heading.id}`}>{heading.text}</a>
-                            </li>
-                        ))}
-                    </ul>
-               </div>
+                <h2>Table of Contents</h2>
+                <ul>
+                    {headings.map((heading, index) => (
+                        <li
+                            key={index}
+                            style={{ marginLeft: `${(heading.level - 1) * 20}px` }}
+                        >
+                            <a href={`#${heading.id}`}>{heading.text}</a>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+
               <h1 className="article_title">{article.title}</h1>
                   <h2 className="article_title">{`${article.date}`}</h2>
                   <h3 className="article_title">{`By ${article.author}`}</h3>
