@@ -82,7 +82,13 @@ function Article({ articles, isDarkMode }) {
            
             <div className="returnButton">
                 <a href="#/home" className="button-36">Return Home</a>
-                <a href="#top" className="button-36">Back to Top</a>
+                <a href="#top" onClick={(e) => {
+                                    e.preventDefault(); // Prevent default anchor behavior
+                                    const element = document.getElementById("top");
+                                    if (element) {
+                                        element.scrollIntoView({ behavior: "smooth" });
+                                    }
+                                }} className="button-36">Back to Top</a>
             </div>
 
             <Footer />
