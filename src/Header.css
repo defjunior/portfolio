@@ -1,0 +1,118 @@
+/* Header.css */
+
+/* Light mode (default) */
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(187deg, rgba(255,255,255,1) 0%, rgba(143,116,176,1) 100%);}
+/* Dark mode */
+body.dark-mode {
+    background-color: #121212;
+   background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(29,0,64,1) 100%);    color: #fff;
+}
+.img_logo {
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+
+body.dark-mode .img_logo {
+    width: 100%;
+    object-fit: contain;
+    src: url(/public/markdown/img/websitelogo1.ico) no-repeat;
+}
+
+.img_logo_link{
+    width: 5%;
+    display: inline-block;
+    aspect-ratio: 1 / 1;
+    text-decoration: none;
+    text-align: center;
+    
+}
+   
+body.dark-mode .theme-toggle {
+    padding: 10px 20px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(29,0,64,1) 100%);    color: #fff;
+
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    color: inherit;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.theme-toggle {
+
+    padding: 10px 20px;
+    background: rgb(255,255,255);
+    background: linear-gradient(187deg, rgba(255,255,255,1) 0%, rgba(143,116,176,1) 100%);
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    color: inherit;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.theme-toggle:hover {
+    background-color: #f0f0f0;
+}
+
+body.dark-mode .theme-toggle:hover {
+    background-color: #333;
+}
+
+.header {
+    justify-items: center
+    ;
+    background: rgb(116,0,255);
+    background: linear-gradient(90deg, rgba(116,0,255,1) 0%, rgba(255,255,255,1) 100%);    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+body.dark-mode .header {
+    align-items: center;
+    background: rgb(40,0,88);
+background: linear-gradient(90deg, rgba(40,0,88,1) 0%, rgba(0,0,0,1) 87%);   left: 0;
+    right: 0;
+    width: 100%;
+}
+
+
+ .navlink{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 5vh;
+    padding-right: 5vh;
+
+}
+
+body.dark-mode .navlink{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 5vh;
+    padding-right: 5vh;
+
+}
+
+.nav{
+  width: 70%;
+  list-style-type: none;
+  display: flex; /* Enable Flexbox */
+  flex-wrap: wrap; /* Allow items to wrap onto the next line if necessary */
+  gap: 20px; /* Add consistent spacing between items */
+  justify-content: center; /* Align items to the left */
+  align-items: center; /* Align items at the start of the cross-axis */
+  padding: 10px; /* Optional: Add padding around the container */
+}
+
+.navlink:hover{
+    color: #ffffff;
+    transition: all 500ms;
+    transform: scale(1.3);
+}
+

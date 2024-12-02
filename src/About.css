@@ -1,0 +1,125 @@
+.header {
+    align-items: center;
+    border-bottom: 2px solid #888888;
+}
+
+.top{
+    margin-bottom: 12%;
+}
+body {
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  }
+  
+.content {
+    display: block;
+    padding-top: 2ch;
+    margin: 0 auto;
+    background-color: rgb(250, 245, 238);
+    border-bottom: 1px solid #AAAAAA;
+    box-shadow: 0 0 40px rgba(170, 170, 170, 1);
+    width: 70%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .content {
+    background-color: rgb(39, 39, 39);
+    border-bottom: 1px solid #303030;
+    box-shadow: 0 0 80px rgb(53, 53, 53);
+}
+
+body.dark-mode .markdown-content {
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 0px solid #ddd; /* Optional: Add a light border for definition */
+    border-radius: 8px; /* Optional: Round the edges */
+    text-align: left;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+  }
+body.dark-mode  .markdown-content h1 {
+    color: #edadff;
+}
+body.dark-mode  .markdown-content h3 {
+    color: #edadff;
+}
+.image{
+    width: 50%;
+    height: 50%;
+}
+
+.markdown_text {
+ 
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+  }
+
+.markdown_text.dark-mode {
+ 
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #d3d3d3;
+  }
+
+  .markdown-content {
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 0px solid #ddd; /* Optional: Add a light border for definition */
+    border-radius: 8px; /* Optional: Round the edges */
+    text-align: left;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .markdown-content h1,
+  .markdown-content h2,
+  .markdown-content h3 {
+    color: #5b1c6d;
+  }
+  
+  .markdown-content p {
+    margin-bottom: 1em;
+  }
+  
+  .markdown-content a {
+    color: #a50060;
+    text-decoration: none;
+  }
+  
+  .markdown-content a:hover {
+    text-decoration: underline;
+  }
+  
+  .markdown-content ul,
+  .markdown-content ol {
+    margin-left: 20px;
+    padding-left: 20px;
+  }
+  
+  .markdown-content li {
+    margin-bottom: 0.5em;
+  }
+  
+  .markdown-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .markdown-content blockquote {
+    margin: 1em 0;
+    padding: 1em;
+    background: #f9f9f9;
+    border-left: 4px solid #ccc;
+  }
+  
+  .markdown-content code {
+    background: #f4f4f4;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+  }

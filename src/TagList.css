@@ -1,0 +1,73 @@
+.tagList {
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    gap: 2%; /* Space between items */
+    justify-content: space-around; /* Distribute items evenly */
+    height: auto; /* Adjust height dynamically */
+    width: 90%;
+    border-radius: 5%;
+    margin: 0 auto;
+    padding: 5%;
+    padding-top: 3%;
+    overflow: auto; /* Allow scrolling if necessary */
+}
+body.dark-mode .tagList_item {
+    margin-top: 5%;
+    transition: all 500ms;
+    flex: 0 0 200px; /* Fixed width of 200px, items won't shrink */
+    max-width: 200px; /* Prevent items from growing beyond 200px */
+    background: rgb(40,0,88);
+    background: linear-gradient(90deg, rgba(40,0,88,1) 0%, rgba(0,0,0,1) 87%);   left: 0;    
+    box-shadow: 0 0 80px rgb(167, 167, 167);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 50px; /* Space between rows */
+    height: auto; /* Allow height to adjust dynamically */
+    word-wrap: break-word;
+}
+.tagList_item {
+    margin-top: 5%;
+    transition: all 500ms;
+    flex: 0 0 200px; /* Fixed width of 200px, items won't shrink */
+    max-width: 200px; /* Prevent items from growing beyond 200px */
+    background: rgb(255,255,255);
+    background: linear-gradient(187deg, rgba(255,255,255,1) 0%, rgba(143,116,176,1) 100%);
+    box-shadow: 0 0 80px rgb(167, 167, 167);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 50px; /* Space between rows */
+    height: auto; /* Allow height to adjust dynamically */
+    word-wrap: break-word;
+}
+
+.home_content{
+    padding-right: 10%;
+    padding-left: 10%;
+    align-items: center;
+}
+.tagList_item:hover {
+    transform: scale(1.2);
+}
+
+body.dark-mode .tagList_item {
+    background-color: rgb(41, 41, 41);
+    box-shadow: 0 0 20px rgb(69, 69, 69);
+}
+
+.tagList_title {
+    padding-top: 20px;
+    text-align: center;
+    max-height: 300px;
+    padding-bottom: -15%;
+}
+
+.read-more {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+    color: rgb(43, 9, 76);
+}
+
+body.dark-mode .read-more {
+    text-decoration: none;
+    color: rgb(165, 75, 255);
+}
