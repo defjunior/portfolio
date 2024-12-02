@@ -8,11 +8,11 @@ If you have no clue what an "Explorer" is, this is probably your best bet to sta
 When your done with that, you should figure out how to open up a baseplate, 
 you can always click the "FILE" button in the top left of any studio tab, and it should bring you to that menu
 
-![Alt Text](/markdown/img/t1img1.png)
+![Alt Text](/portfolio/markdown/img/t1img1.png)
 
 Clicking the new button should open up a default template that looks like this
 
-![Alt Text](/markdown/img/t1img2.png)
+![Alt Text](/portfolio/markdown/img/t1img2.png)
 
 This is the main interface of studio, with the game viewport showing you exactly what's in the workspace directory, shown by the explorer on the right
 
@@ -25,7 +25,7 @@ For example, if we had two boxes, and we put one box in the other box, then a ba
 In Roblox, it's the exact same way, just with dots **(game.Workspace)**
 Opening up the workspace might show something like this :
 
-![Alt Text](/markdown/img/t1img3.png)
+![Alt Text](/portfolio/markdown/img/t1img3.png)
 
 The part that you see with the weird texture on it is a **SpawnLocation**, very self explanatory, you spawn on top of it when you join the game
 However, what's more important is that its something you can see on **both the Viewport and the Explorer because it's under the workspace**
@@ -44,14 +44,14 @@ Ultimately, the directory system is just a series of parents and children
 there is a .Parent property for every instance, and setting something like **Part.Parent = Part2**, would change the structure of the directory
 a **Parent** is an instance that is set as the parent under the .Parent property for multiple "children"
 
-![Alt Text](/markdown/img/t1img4.png)
+![Alt Text](/portfolio/markdown/img/t1img4.png)
 
 In this case, the Workspace is a parent of the Camera, Terrain, SpawnLocation and the Baseplate
 you would be able to access the Camera through **game.Workspace.Camera**
 Camera, Terrain, SpawnLocation, and the Baseplate would all be considered **Children**
 an **Ancestor** would be anything that is the parent or grandparent or anything above just the parent of a child
 
-![Alt Text](/markdown/img/t1img5.png)
+![Alt Text](/portfolio/markdown/img/t1img5.png)
 
 In this case, the **Workspace** would be an ancestor of **Texture** since it's higher up than just the parent (Baseplate)
 * game.Workspace

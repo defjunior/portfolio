@@ -33,7 +33,7 @@ function Home({ articles, isDarkMode }) {
         <h1 className = "tagList_title"></h1>
         <div className="home_content">
             <div className='personal_info_block'>
-                <MarkdownRenderer filePath="/markdown/homepage.md">
+                <MarkdownRenderer filePath={`${process.env.PUBLIC_URL}/markdown/homepage.md`}>
                 </MarkdownRenderer>
             </div>
             <h2 className = "tagList_title">Articles</h2>

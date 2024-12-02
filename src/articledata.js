@@ -5,7 +5,7 @@ const articlesData = [
         author: "Emmanuel",
         date : "6/17/2024",
         excerpt: "Learn the basics of studio",
-        content: "/markdown/topic1.md",
+        content: `${process.env.PUBLIC_URL}/markdown/topic1.md`,
         slug: "beginner-getting-started", // For URL
         tags: ["lua", "beginner", "tutorial","roblox"]
     }, {
@@ -14,7 +14,7 @@ const articlesData = [
         author: "Emmanuel",
         date : "6/18/2024",
         excerpt: "Learn the basics of studio",
-        content: "/markdown/topic2.md",
+        content: `${process.env.PUBLIC_URL}/markdown/topic2.md`,
         slug: "beginner-using-scripts", // For URL
         tags: ["lua", "beginner", "tutorial","roblox"]
     },{
@@ -23,7 +23,7 @@ const articlesData = [
         author: "Emmanuel",
         date : "6/18/2024",
         excerpt: "Learn the basics of studio",
-        content: "/markdown/topic3.md",
+        content: `${process.env.PUBLIC_URL}/markdown/topic3.md`,
         slug: "beginner-constructors", // For URL
         tags: ["lua", "beginner", "tutorial","roblox"]
     },{
@@ -32,7 +32,7 @@ const articlesData = [
         author: "Emmanuel",
         date : "6/19/2024",
         excerpt: "Learn the basics of studio",
-        content: "/markdown/topic4.md",
+        content: `${process.env.PUBLIC_URL}/markdown/topic4.md`,
         slug: "beginner-datatypes-operators", // For URL
         tags: ["lua", "beginner", "tutorial","roblox"]
     },{
@@ -41,7 +41,7 @@ const articlesData = [
         author: "Emmanuel",
         date : "6/19/2024",
         excerpt: "Learn the basics of studio",
-        content: "/markdown/topic5.md",
+        content: `${process.env.PUBLIC_URL}/markdown/topic5.md`,
         slug: "beginner-control", // For URL
         tags: ["lua", "beginner", "tutorial","roblox"]
     },{
@@ -50,7 +50,7 @@ const articlesData = [
         author: "Emmanuel",
         date : "6/19/2024",
         excerpt: "Learn the basics of studio",
-        content: "/markdown/topic6.md",
+        content: `${process.env.PUBLIC_URL}/markdown/topic6.md`,
         slug: "beginner-functions", // For URL
         tags: ["lua", "beginner", "tutorial","roblox"]
     },{
@@ -59,7 +59,7 @@ const articlesData = [
         author: "Emmanuel",
         date : "6/21/2024",
         excerpt: "Learn the basics of studio",
-        content: "/markdown/topic7.md",
+        content: `${process.env.PUBLIC_URL}/markdown/topic7.md`,
         slug: "beginner-scope", // For URL
         tags: ["lua", "beginner", "tutorial","roblox"]
     },{
@@ -68,7 +68,7 @@ const articlesData = [
         author: "Emmanuel",
         date : "6/25/2024",
         excerpt: "Learn the basics of studio",
-        content: "/markdown/topic8.md",
+        content: `${process.env.PUBLIC_URL}/markdown/topic8.md`,
         slug: "beginner-events", // For URL
         tags: ["lua", "beginner", "tutorial","roblox"]
     },
@@ -78,7 +78,7 @@ const articlesData = [
         author: "Emmanuel",
         date : "6/25/2024",
         excerpt: "Learn the basics of studio",
-        content: "/markdown/topic9.md",
+        content: `${process.env.PUBLIC_URL}/markdown/topic9.md`,
         slug: "beginner-arrays", // For URL
         tags: ["lua", "beginner", "tutorial","roblox"]
     },{
@@ -87,7 +87,7 @@ const articlesData = [
         author: "Emmanuel",
         date : "6/25/2024",
         excerpt: "Learn the basics of studio",
-        content: "/markdown/topic10.md",
+        content: `${process.env.PUBLIC_URL}/markdown/topic10.md`,
         slug: "beginner-variadic", // For URL
         tags: ["lua", "beginner", "tutorial","roblox"]
     },{
@@ -96,7 +96,7 @@ const articlesData = [
         author: "Emmanuel",
         date : "7/7/2024",
         excerpt: "Learn the basics of studio",
-        content: "/markdown/topic11.md",
+        content: `${process.env.PUBLIC_URL}/markdown/topic11.md`,
         slug: "beginner-dictionary", // For URL
         tags: ["lua", "beginner", "tutorial","roblox"]
     },{
@@ -105,7 +105,7 @@ const articlesData = [
         author: "Emmanuel",
         date : "7/7/2024",
         excerpt: "Learn the basics of studio",
-        content: "/markdown/topic12.md",
+        content: `${process.env.PUBLIC_URL}/markdown/topic12.md`,
         slug: "beginner-modules", // For URL
         tags: ["lua", "beginner", "tutorial","roblox"]
     },{
@@ -114,7 +114,7 @@ const articlesData = [
         author: "Emmanuel",
         date : "7/7/2024",
         excerpt: "Learn the basics of studio",
-        content: "/markdown/topic13.md",
+        content: `${process.env.PUBLIC_URL}/markdown/topic13.md`,
         slug: "beginner-events2", // For URL
         tags: ["lua", "beginner", "tutorial","roblox"]
     },
