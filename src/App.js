@@ -2,12 +2,11 @@ import './App.css';
 import Header from './Header';
 import Home from './Home';
 import About from './About';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import articlesData from './articledata';
 import Article from './Article';
 import TagList from './TagList';
-import { marked } from 'marked';
-import React, { useState, useEffect,useContext } from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { okaidia } from 'react-syntax-highlighter/dist/esm/styles/prism';
@@ -176,7 +175,7 @@ export {titleText,MarkdownRenderer,MarkdownRendererString,useMarkdownStringSub};
 function App() {
     return (
         <div className="App">
-            <BrowserRouter basename="/portfolio">
+            <HashRouter>
                 <Header />
                 <Routes>
                     <Route path="home" element={<Home articles={articlesData} />} />
@@ -192,7 +191,7 @@ function App() {
                         element={<Article articles={articlesData} />}
                     />
                 </Routes>
-            </BrowserRouter>
+            </HashRouter>
         </div>
     );
 }
