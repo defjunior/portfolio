@@ -9,7 +9,7 @@ function About({isDarkMode}) {
     <div className={`about ${isDarkMode ? 'dark-mode' : ''}`}>
       <div className="top"></div>
       <div className={`content ${isDarkMode ? 'dark-mode' : ''}`}>
-        <MarkdownRenderer filePath="/markdown/aboutme.md" />
+        <MarkdownRenderer filePath={`${process.env.PUBLIC_URL}/markdown/aboutme.md`} />
       </div>
       <Footer />
     </div>
