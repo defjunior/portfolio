@@ -41,12 +41,12 @@ function Header() {
   return (
     <div id="top" className="header">
       <nav className="nav">
-        <a href="/home" className='img_logo_link'>
+        <a href="#/home" className='img_logo_link'>
           <img src={logoSrc} alt="Logo" className="img_logo" />
         </a>
-        <a href="/home" className="navlink">home</a>
-        <a href="/about" className="navlink">about</a>
-        <a href="/tag/games" className="navlink">games</a>
+        <a href="#/home" className="navlink">home</a>
+        <a href="#/about" className="navlink">about</a>
+        <a href="#/tag/games" className="navlink">games</a>
         <button className="theme-toggle" onClick={toggleTheme}>
           {isDarkMode ? 'Dark Mode' : ' Light Mode'}
         </button>

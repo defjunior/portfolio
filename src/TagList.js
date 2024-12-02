@@ -42,7 +42,7 @@ function TagList({ articles, isDarkMode }) {
                         <div key={article.id} className="tagList_item">
                             <h2>{article.title}</h2>
                             <MarkdownRendererString markdownContent={article.markdownPreview}></MarkdownRendererString>
-                            <Link to={`/articles/${article.slug}`} className="read-more">
+                            <Link to={`#/articles/${article.slug}`} className="read-more">
                                 Read More
                             </Link>
                         </div>
