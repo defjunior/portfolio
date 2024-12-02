@@ -32,7 +32,7 @@ function Article({ articles, isDarkMode }) {
                                 key={index}
                                 style={{ marginLeft: `${(heading.level - 1) * 20}px` }}
                             >
-                                <a href={`#${heading.id}`}>{heading.text}</a>
+                                <a href={`#/${heading.id}`}>{heading.text}</a>
                             </li>
                         ))}
                     </ul>
