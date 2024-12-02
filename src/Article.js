@@ -69,7 +69,7 @@ function Article({ articles, isDarkMode }) {
         
            
             <div className="returnButton">
-                <a href="/home" className="button-36">Return Home</a>
+                <a href="#/home" className="button-36">Return Home</a>
                 <a href="#top" className="button-36">Back to Top</a>
             </div>
 
