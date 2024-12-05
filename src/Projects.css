@@ -19,13 +19,14 @@
     max-width: 800px; /* Prevent items from growing beyond 200px */
     background: rgb(255,255,255);
     background: linear-gradient(187deg, rgba(255,255,255,1) 0%, rgba(143,116,176,1) 100%);
-    box-shadow: 0 0 80px rgb(167, 167, 167);
+    box-shadow: 0 0 40px rgb(167, 167, 167);
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 50px; /* Space between rows */
     height: 250px;
     word-wrap: break-word;
 }
+
 
 body.dark-mode .projectList_item {
     margin-top: 5%;
@@ -34,7 +35,7 @@ body.dark-mode .projectList_item {
     max-width: 800px; /* Prevent items from growing beyond 200px */
     background: rgb(40,0,88);
     background: linear-gradient(90deg, rgba(40,0,88,1) 0%, rgba(0,0,0,1) 87%);   left: 0;    
-    box-shadow: 0 0 80px rgb(167, 167, 167);
+    box-shadow: 0 0 40px rgb(167, 167, 167);
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 50px; /* Space between rows */

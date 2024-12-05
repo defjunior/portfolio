@@ -7,6 +7,7 @@ import articlesData from './articledata';
 import projectData from './projectdata';
 import Article from './Article';
 import Projects from './Projects';
+import Landing from './Landing';
 import TagList from './TagList';
 import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
@@ -199,8 +200,12 @@ function App() {
                         element={<Article articles={articlesData} />}
                     />
                     <Route
-                        path="projects/"
+                        path="projects"
                         element={<Projects articles={articlesData} projects={projectData} />}
+                    />
+                    <Route
+                        path="projects/:proj"
+                        element={<Landing articles={articlesData} projects={projectData} />}
                     />
                 </Routes>
             </HashRouter>

@@ -24,7 +24,6 @@ body {
   text-align: center;
   text-decoration: none;
   text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
-  transition: all 0.5s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -44,7 +43,6 @@ body.dark-mode .button-36{
   text-align: center;
   text-decoration: none;
   text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
-  transition: all 0.5s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -210,13 +208,13 @@ body.dark-mode .markdown-content a {
   padding: 0px;
 }
 body.dark-mode .tag{
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
   color: #ffffff;
   text-decoration: none;
   background-color: rgb(133, 0, 115);
   border-radius: 5%;
   padding: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.5s;
 }
 .tag{
   transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
@@ -226,7 +224,6 @@ body.dark-mode .tag{
   border-radius: 5%;
   padding: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.5s;
 }
 .tag:hover{
   transform: scale(1.05);

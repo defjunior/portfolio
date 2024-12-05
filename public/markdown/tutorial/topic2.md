@@ -1,13 +1,13 @@
 
 
 Open studio and load a new baseplate like you did in Topic #1
-Make sure the **Properties **and the **Explorer **tabs are visible, If not, check the **View **Tab which is on the highest bar in studio, along with the FILE button you used to open up a new baseplate.
+Make sure the **Properties** and the **Explorer** tabs are visible, If not, check the **View** Tab which is on the highest bar in studio, along with the FILE button you used to open up a new baseplate.
 
 ![Alt Text](/portfolio/markdown/img/t2img1.png)
 
 Those tabs at the top are pretty important for navigating studio, they contain a majority of the tools and ways to view extra utilities you will often use in studio
-1. Make sure you have the workspace selected in the **Explorer **, Click on it
-2. Create a new part by opening the **Home **tab and clicking the **Part **button
+1. Make sure you have the workspace selected in the **Explorer**, Click on it
+2. Create a new part by opening the **Home** tab and clicking the **Part** button
 3. Rename the new part to "NewPart" for clarity, you can do this by right clicking the part in the **Explorer**
 4. Right click on "NewPart" , and select **Insert Object > Script**
 You can search for it, but generally it should be around the top
@@ -66,7 +66,7 @@ Back to our original script, Line 2 is an assignment
 If you remember from the previous topic, properties are **Indexable** like actual child instances (**part.part2**)
 Here, you can see the **operator** shown as "=" used to change the value of something
 In this instance, the .BrickColor property is being changed to a different BrickColor value
-1. Click the play button under the **Home **tab
+1. Click the play button under the **Home** tab
 2. You should see the part change to a bright red color.
 
 ### Summary

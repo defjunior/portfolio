@@ -82,6 +82,8 @@ body.dark-mode .header {
 
 
  .navlink{
+    transition: all 500ms;
+    transition: color 0.1s ease, color 0.1s ease;
     color: #000000;
     text-decoration: none;
     font-size: 18px;
@@ -91,6 +93,8 @@ body.dark-mode .header {
 }
 
 body.dark-mode .navlink{
+    transition: all 500ms;
+    transition: color 0.1s ease, color 0.1s ease;
     color: #ffffff;
     text-decoration: none;
     font-size: 18px;
@@ -111,6 +115,10 @@ body.dark-mode .navlink{
 
 .navlink:hover{
     color: #ffffff;
-    transform: scale(1.3);
+    transform: scale(1.15);
 }
 
+body.dark-mode .navlink:hover{
+    color: rgb(72, 72, 72);
+    transform: scale(1.15);
+}
