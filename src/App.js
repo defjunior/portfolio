@@ -4,7 +4,9 @@ import Home from './Home';
 import About from './About';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import articlesData from './articledata';
+import projectData from './projectdata';
 import Article from './Article';
+import Projects from './Projects';
 import TagList from './TagList';
 import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
@@ -195,6 +197,10 @@ function App() {
                     <Route
                         path="articles/:slug"
                         element={<Article articles={articlesData} />}
+                    />
+                    <Route
+                        path="projects/"
+                        element={<Projects articles={articlesData} projects={projectData} />}
                     />
                 </Routes>
             </HashRouter>

@@ -45,8 +45,8 @@ function Header() {
           <img src={logoSrc} alt="Logo" className="img_logo" />
         </a>
         <a href="#/home" className="navlink">home</a>
+        <a href="#/projects" className="navlink">projects</a>
         <a href="#/about" className="navlink">about</a>
-        <a href="#/tag/games" className="navlink">games</a>
         <button className="theme-toggle" onClick={toggleTheme}>
           {isDarkMode ? 'Dark Mode' : ' Light Mode'}
         </button>
