@@ -19,7 +19,8 @@ local  createdPart = Instance.new("Part")
 
 creates a new variable named createdPart, with the value of a brand new part created from thin air
 If you wanted to actually see that part, you would need to have it as a child of the workspace since new instances by default have no parent, but are also not **nil**
-(nil is something you can use to say or check if something doesn't exist, like **print(1 == nil )**)
+(nil is something you can use to say or check if something doesn't exist, 
+like **print(1 == nil )**)
 
 
 ```lua

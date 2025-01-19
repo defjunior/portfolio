@@ -1,38 +1,58 @@
 .projectList {
-    display: flex; /* Use flexbox */
-    flex-wrap: wrap; /* Allow items to wrap to the next row */
-    gap: 2%; /* Space between items */
-    justify-content: space-around; /* Distribute items evenly */
-    height: auto; /* Adjust height dynamically */
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 2%; 
+    justify-content: space-around; 
+    height: auto; 
     width: 70%;
     border-radius: 5%;
     margin: 0 auto;
     padding: 5%;
     padding-top: 3%;
-    overflow: auto; /* Allow scrolling if necessary */
+    overflow: auto; 
 }
 
 .projectList_item {
     margin-top: 5%;
     transition: all 500ms;
-    flex: 0 0 800px; /* Fixed width of 200px, items won't shrink */
-    max-width: 800px; /* Prevent items from growing beyond 200px */
+    flex: 0 0 100%; 
+    max-width: 100%; 
     background: rgb(255,255,255);
     background: linear-gradient(187deg, rgba(255,255,255,1) 0%, rgba(143,116,176,1) 100%);
     box-shadow: 0 0 40px rgb(167, 167, 167);
     border-radius: 5px;
     padding: 10px;
-    margin-bottom: 50px; /* Space between rows */
+    margin-bottom: 50px; 
     height: 250px;
     word-wrap: break-word;
+    background-image: '';
 }
 
+.projectList_item:hover{
+    
+}
 
+.project_title{
+    position: absolute;
+}
+
+.project_banner_image{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+.project_banner_overlay{
+    height: 250px;
+    width:  100%;
+    position: fixed;
+    z-index: 9;
+}
 body.dark-mode .projectList_item {
     margin-top: 5%;
     transition: all 500ms;
-    flex: 0 0 800px; /* Fixed width of 200px, items won't shrink */
-    max-width: 800px; /* Prevent items from growing beyond 200px */
+    flex: 0 0 100%; /* Fixed width of 200px, items won't shrink */
+    max-width: 100%; /* Prevent items from growing beyond 200px */
     background: rgb(40,0,88);
     background: linear-gradient(90deg, rgba(40,0,88,1) 0%, rgba(0,0,0,1) 87%);   left: 0;    
     box-shadow: 0 0 40px rgb(167, 167, 167);
@@ -52,3 +72,4 @@ body.dark-mode .read-more {
     text-decoration: none;
     color: rgb(165, 75, 255);
 }
+

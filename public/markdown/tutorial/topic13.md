@@ -1,5 +1,10 @@
 
-Anything that might randomly happen within a game environment might also have an **Event** attached to it. **Events** are a concept that allows you to easy "react" or do something whenever a certain object changes property, a player fires a remote event (networking to the server) or other changes that occur in your game. It offers a way to create a dynamic systems in your games.
+Anything that might randomly happen within a game environment might also have an **Event** attached to it. 
+**Events** are a concept that allows you to easy "react" or do something whenever a certain
+object changes property, 
+a player fires a remote event (networking to the server) 
+or other changes that occur in your game. 
+It offers a way to create a dynamic systems in your games.
 
 Events are sort of like objects in scripts that have to "ends" to them
 you can think of it as a long trail set out for a messenger

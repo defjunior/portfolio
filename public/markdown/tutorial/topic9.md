@@ -1,6 +1,7 @@
 
 
-An array is a numbered list of objects, they differ from their counterparts, which are dictionaries, that are unable to be indexed fully by numbers, 
+An array is a numbered list of objects, they differ from their counterparts, which are
+dictionaries, that are unable to be indexed fully by numbers, 
 and have **keys **that are non-numbers
 Arrays are a type of **table**, which refers to any datatype that stores things in a key-value pair
 
@@ -36,7 +37,8 @@ table.remove(tools, 2)  -- Removes the element at index 2
 print(tools[2])  -- Output: Screwdriver
 print(tools) -- Output : Hammer, Screwdriver
 ```
-Arrays are a general purpose way of storing associated bits of data, as they can contain any other datatype as values
+Arrays are a general purpose way of storing associated bits of data, 
+as they can contain any other datatype as values
 They're pretty essential, and its guaranteed that whatever your making could be simplified with an array
 There are countless examples where arrays save time writing out pointless repetition of lines, a big rule in programming is the don't repeat yourself rule
 which essentially means that you should avoid rewriting identical lines of code as much as possible

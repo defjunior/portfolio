@@ -33,7 +33,8 @@ else
 end
 ```
 Having a true value there guarantees that the following code will run
-If responds to true values, and else responds to false values, if the initial if statement does not receive a true value, then the following elseif and else statements will run their corresponding lines
+If responds to true values, and else responds to false values, if the initial if statement does
+not receive a true value, then the following elseif and else statements will run their corresponding lines
 ### elseif Statement
 Elseif is used after the initial if statement is placed, it is used to check multiple conditions beyond the first if statement
 This statement removes the need to add end statements after every if statement if multiple of them are "backup plans" for the first if statement if the condition isn't true

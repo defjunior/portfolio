@@ -8,7 +8,8 @@ Make sure the **Properties** and the **Explorer** tabs are visible, If not, chec
 Those tabs at the top are pretty important for navigating studio, they contain a majority of the tools and ways to view extra utilities you will often use in studio
 1. Make sure you have the workspace selected in the **Explorer**, Click on it
 2. Create a new part by opening the **Home** tab and clicking the **Part** button
-3. Rename the new part to "NewPart" for clarity, you can do this by right clicking the part in the **Explorer**
+3. Rename the new part to "NewPart" for clarity, 
+you can do this by right clicking the part in the **Explorer**
 4. Right click on "NewPart" , and select **Insert Object > Script**
 You can search for it, but generally it should be around the top
 
@@ -54,7 +55,7 @@ or the actual object, which can be deleted when the variable is set to nil
 Think of variables as a box, and in the box you can have anything you want
 the box would be the variable, and whatever's in the box would be a value.
 
-If i create a new string value like :
+If I create a new string value like :
 ```lua
 local Name = "junior"
 ```

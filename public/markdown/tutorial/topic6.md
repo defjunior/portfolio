@@ -1,6 +1,8 @@
 
-Like we covered earlier in Topic #1, a **function** is essentially a set of ordered instructions or a "block" of code that you can designate to run at a certain time using a **function call**
-The first step is to define the function, you're essentially putting a nametag on the block of code you want to run later.
+Like we covered earlier in Topic #1, a **function** is essentially a set of ordered instructions
+or a "block" of code that you can designate to run at a certain time using a **function call**
+The first step is to define the function, you're essentially putting a nametag on the block of
+code you want to run later.
 ```lua
 function greet()
     print("Hello, world!")
@@ -23,7 +25,8 @@ greet()
 ```
 This calls a function without specifying any arguments
 ### Function Arguments
-Like we covered in earlier topics, Functions can take **arguments**, which are values that are given to the function and **effectively made as variables within the scope of the function**
+Like we covered in earlier topics, Functions can take **arguments**, which are values that are
+given to the function and **effectively made as variables within the scope of the function**
 We'll go over function scope later, so here's an example of a function argument
 ```lua
 function greetPerson(name)

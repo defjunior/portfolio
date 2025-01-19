@@ -35,7 +35,7 @@ orderBurger{true,"Caramelized Onions","Lettuce","Beef Patty","Bacon",
 -- just do this if it's really long in general
 -- i wish i didn't have to discover this
 ```
-You can make your own custom events using BindableEvent objects
+You can make your own custom events using BindableEvent objects.
 They essentially allow you to facilitate communication between two server scripts
 Now it's important to understand the distinction between local scripts and server scripts since the next topic is about server-client communication
 Insert an object at the required directories shown at the start of the script for this test
