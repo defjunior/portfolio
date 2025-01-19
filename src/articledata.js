@@ -117,6 +117,15 @@ const articlesData = [
         content: `${process.env.PUBLIC_URL}/markdown/tutorial/topic13.md`,
         slug: "beginner-events2", // For URL
         tags: ["lua", "beginner", "tutorial","roblox"]
+    },{
+        id: 14,
+        title: "#14 Server Client Communication",
+        author: "Emmanuel",
+        date : "1/19/2025",
+        excerpt: "Learn the basics of studio",
+        content: `${process.env.PUBLIC_URL}/markdown/tutorial/topic14.md`,
+        slug: "server-client", // For URL
+        tags: ["lua", "beginner", "tutorial","roblox"]
     },
     
     
