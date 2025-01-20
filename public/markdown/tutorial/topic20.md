@@ -167,8 +167,4 @@ print(clampedValue) -- Outputs: 100
 2. Implement a global settings framework in **_G** with default game configurations that can be overridden per game session.
 3. Write a global logger in **_G** that tracks and formats messages from different parts of the game.
 
-### Relevant Links
 
-[https://www.lua.org/manual/5.1/manual.html#2.9](https://www.lua.org/manual/5.1/manual.html#2.9)
-
-[https://developer.roblox.com/en-us/articles/Lua-Global-Variables](https://developer.roblox.com/en-us/articles/Lua-Global-Variables)
