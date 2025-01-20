@@ -1,4 +1,5 @@
 
+### What are Datatypes
 
 A **Datatype** refers to the type of data a variable is, there are many datatypes like :
 * string

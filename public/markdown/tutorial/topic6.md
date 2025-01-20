@@ -1,4 +1,5 @@
 
+### Functions
 Like we covered earlier in Topic #1, a **function** is essentially a set of ordered instructions
 or a "block" of code that you can designate to run at a certain time using a **function call**
 The first step is to define the function, you're essentially putting a nametag on the block of

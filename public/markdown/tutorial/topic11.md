@@ -1,3 +1,4 @@
+### Dictionaries
 
 Dictionaries are a type of data very similar to arrays.
 if you can recall, Arrays are indexed by numbers only in sequential order

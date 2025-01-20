@@ -1,5 +1,5 @@
 
-
+### Using Studio
 Open studio and load a new baseplate like you did in Topic #1
 Make sure the **Properties** and the **Explorer** tabs are visible, If not, check the **View** Tab which is on the highest bar in studio, along with the FILE button you used to open up a new baseplate.
 

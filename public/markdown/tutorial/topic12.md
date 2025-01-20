@@ -1,4 +1,5 @@
 
+### Modules
 Modules are part of a larger idea in scripting, where you want to avoid writing useless or repetitive lines of code
 [https://www.techopedia.com/definition/33513/dry-principle](https://www.techopedia.com/definition/33513/dry-principle)
 It's called the **DRY principle**, meaning **Don't Repeat Yourself**
@@ -35,13 +36,43 @@ print("Sum: " .. sum)  -- Output: Sum: 8
 local difference = MathModule.subtract(10, 4)
 print("Difference: " .. difference)  -- Output: Difference: 6
 ```
-The require function takes the instance of a module script from the directory, and returns a "return table", which is cached
-This cached return table is by default is what is originally written in your module script, but
-its "cached" so it's being saved somewhere and is reused whenever any script calls require() on that exact module
+### More Module Features
+
+Modules are highly versatile and can contain:
+* Nested Tables: You can create submodules within a module.
+* States : Their internal data can be updated during runtime
+
+Here's an example :
+
+```lua
+local Combat = {
+    Weapons = {},
+    Skills = {}
+}
+
+function Combat.Weapons.swordDamage(baseDamage, multiplier)
+    return baseDamage * multiplier
+end
+
+function Combat.Skills.calculateCooldown(baseCooldown, haste)
+    return baseCooldown / (1 + haste)
+end
+
+return Combat
+```
+
+### Maintained Module States
+
+TLDR : The module's internal data is persistent and can be updated by anything that calls require() and edits it
+
+Here's the long explanation :
+The require function takes the instance of a module script from the directory, and returns a "return table", 
+This cached return table is by default is what is originally written in your module script.
+It is reused whenever any script calls require() on that exact module.
 The result is a behavior where the contents of a module script can effectively 
-be edited at runtime, and those changes will be replicated 
-if a new script calls require() after it happens
-Most people do not know about this behavior, so it's important to remember it early on
+be edited at runtime, and those changes will be replicated.
+
+
 ```lua
 -- First Script
 local MathModule = require(game.ServerScriptService.MathModule)

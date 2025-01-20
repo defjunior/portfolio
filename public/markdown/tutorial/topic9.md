@@ -1,5 +1,5 @@
 
-
+### Arrays
 An array is a numbered list of objects, they differ from their counterparts, which are
 dictionaries, that are unable to be indexed fully by numbers, 
 and have **keys **that are non-numbers

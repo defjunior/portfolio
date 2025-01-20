@@ -125,7 +125,62 @@ const articlesData = [
         excerpt: "Learn the basics of studio",
         content: `${process.env.PUBLIC_URL}/markdown/tutorial/topic14.md`,
         slug: "server-client", // For URL
-        tags: ["lua", "beginner", "tutorial","roblox"]
+        tags: ["lua", "intermediate", "tutorial","roblox"]
+    },{
+        id: 15,
+        title: "#15 Return and Functional Design",
+        author: "Emmanuel",
+        date : "1/19/2025",
+        excerpt: "Learn the basics of studio",
+        content: `${process.env.PUBLIC_URL}/markdown/tutorial/topic15.md`,
+        slug: "return-functional", // For URL
+        tags: ["lua", "intermediate", "tutorial","roblox"]
+    },{
+        id: 16,
+        title: "#16 Closures and Higher Order Functions",
+        author: "Emmanuel",
+        date : "1/19/2025",
+        excerpt: "Learn the basics of studio",
+        content: `${process.env.PUBLIC_URL}/markdown/tutorial/topic16.md`,
+        slug: "closure-higherorderfunctions", // For URL
+        tags: ["lua", "intermediate", "tutorial","roblox"]
+    },{
+        id: 17,
+        title: "#17 Iterators",
+        author: "Emmanuel",
+        date : "1/19/2025",
+        excerpt: "Learn the basics of studio",
+        content: `${process.env.PUBLIC_URL}/markdown/tutorial/topic17.md`,
+        slug: "iterators", // For URL
+        tags: ["lua", "intermediate", "tutorial","roblox"]
+    },{
+        id: 18,
+        title: "#18 Metamethods and Metatables",
+        author: "Emmanuel",
+        date : "1/19/2025",
+        excerpt: "Learn the basics of studio",
+        content: `${process.env.PUBLIC_URL}/markdown/tutorial/topic18.md`,
+        slug: "metamethods-metatables", // For URL
+        tags: ["lua", "intermediate", "tutorial","roblox"]
+    },{
+        id: 19,
+        title: "#19 Object Oriented Programming",
+        author: "Emmanuel",
+        date : "1/19/2025",
+        excerpt: "Learn the basics of studio",
+        content: `${process.env.PUBLIC_URL}/markdown/tutorial/topic19.md`,
+        slug: "object-oriented-programming", // For URL
+        tags: ["lua", "intermediate", "tutorial","roblox"]
+    },
+    {
+        id: 20,
+        title: "#20 Frameworking",
+        author: "Emmanuel",
+        date : "1/20/2025",
+        excerpt: "Learn the basics of studio",
+        content: `${process.env.PUBLIC_URL}/markdown/tutorial/topic20.md`,
+        slug: "framework", // For URL
+        tags: ["lua", "intermediate", "tutorial","roblox"]
     },
     
     

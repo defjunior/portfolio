@@ -89,6 +89,9 @@ body.dark-mode  .markdown-content h1 {
   color: #6f00ff;
     
 }
+body.dark-mode  .markdown-content h2 {
+  color: #e3d5ff; 
+}
 body.dark-mode  .markdown-content h3 {
   color: #e3d5ff; 
 }

@@ -1,3 +1,6 @@
+
+### Basic Datatypes & Operators 
+
 As you saw in the previous topic, we worked with a script like this :
 
 ```lua
