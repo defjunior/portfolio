@@ -1,4 +1,5 @@
 
+### Scope
 Remember those "local" keywords used to assign a bunch of variables in previous topics?
 They are actually part of a system used to declare variables in context
 Scope refers to the context in which a function is accessible

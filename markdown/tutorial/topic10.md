@@ -1,4 +1,5 @@
 
+### Variadic Functions
 Variadic Functions are functions that take a variable number of arguments, meaning when you define your function you don't have to define every argument
 The unknown arguments are represented by "..."
 ```lua

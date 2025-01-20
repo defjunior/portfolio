@@ -179,7 +179,7 @@ Keep in mind, that if the function errors on the client, it will error on the se
 
 * RemoteFunctions: Two-way communication (Client > Server > Client), etc.
 
-## Important Notes
+### Important Notes
 
 * Security: Always validate data sent from the client to the server to prevent cheating or exploitation.
 
