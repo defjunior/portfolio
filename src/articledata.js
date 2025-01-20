@@ -173,13 +173,13 @@ const articlesData = [
         tags: ["lua", "intermediate", "tutorial","roblox"]
     },
     {
-        id: 20,
-        title: "#20 Frameworking",
+        id: 21,
+        title: "#21 Coroutines",
         author: "Emmanuel",
         date : "1/20/2025",
         excerpt: "Learn the basics of studio",
-        content: `${process.env.PUBLIC_URL}/markdown/tutorial/topic20.md`,
-        slug: "framework", // For URL
+        content: `${process.env.PUBLIC_URL}/markdown/tutorial/topic21.md`,
+        slug: "coroutines", // For URL
         tags: ["lua", "intermediate", "tutorial","roblox"]
     },
     

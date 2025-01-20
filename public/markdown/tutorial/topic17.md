@@ -88,7 +88,7 @@ How it works:
 
 ```lua
 local function infiniteGenerator(start)
-    return coroutine.wrap(function() -- Coroutines will be covered in the next topic
+    return coroutine.wrap(function() -- Coroutines will be covered in #21
         local current = start
         while true do
             coroutine.yield(current)
