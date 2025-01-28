@@ -1,4 +1,4 @@
-# About Me
+### About Me
 * I am an artist
 * I really enjoy programming and math
 ### Beginning
@@ -8,7 +8,8 @@
     * I researched ways to approach making AI for games and realized that it wasn't too difficult to turn human approaches to games into code
     * I developed a behavior tree approach and a general outline which became the basis for my AI in other games
 * I revisted making a fighting game with **Astera**, a successor to the earlier **Rift** project with object oriented code
-* I created a table-tennis game called **Rally** which is similar to the game from Wii Play
+* I created a table-tennis game called **Rally** which is similar to the game from Wii Play.
+   - It uses server authoritative physics and simulates spin
 * I made **Connect4** and **Tic-Tac-Toe** as quick commissions for someone else, I could probably make anything given a detailed explanation.
 *  I became proficient in **Blender** to make 3D models for the equipment used in games
 * I developed better approaches to AI in games and applied those techniques to the **NPCs** in **Astera**
