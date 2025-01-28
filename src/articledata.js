@@ -181,6 +181,24 @@ const articlesData = [
         content: `${process.env.PUBLIC_URL}/markdown/tutorial/topic21.md`,
         slug: "coroutines", // For URL
         tags: ["lua", "intermediate", "tutorial","roblox"]
+    },{
+        id: 22,
+        title: "#22 Task Library",
+        author: "Emmanuel",
+        date : "1/27/2025",
+        excerpt: "Learn the basics of studio",
+        content: `${process.env.PUBLIC_URL}/markdown/tutorial/topic22.md`,
+        slug: "task-library", // For URL
+        tags: ["lua", "intermediate", "tutorial","roblox"]
+    },{
+        id: 23,
+        title: "#23 Attributes",
+        author: "Emmanuel",
+        date : "1/27/2025",
+        excerpt: "Learn the basics of studio",
+        content: `${process.env.PUBLIC_URL}/markdown/tutorial/topic23.md`,
+        slug: "attributes", // For URL
+        tags: ["lua", "intermediate", "tutorial","roblox"]
     },
     
     

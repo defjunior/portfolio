@@ -25,6 +25,11 @@ If you wanted to actually see that part, you would need to have it as a child of
 (nil is something you can use to say or check if something doesn't exist, 
 like **print(1 == nil )**)
 
+It is extremely important to note that certain functions only run properly with certain datatypes.
+This is why it is extremely important to take note of the type of data you are handling at all times
+
+Some people like to name their variables accordingly just to remember.
+
 
 ```lua
 local  createdPart = Instance.new("Part")
