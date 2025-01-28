@@ -7,7 +7,7 @@
 * I know Lua and Python, and plan to become well versed in C#, C++, and Java.
 * I have been coding since 2021.
 ---
-* Email - [e.eshundanquah@gmail.com](mailto:e.eshundanquah@gmail.com)
+* Email - [e.eshundanquah@gmail.com](mailto:emmanuel@j1dev.org)
 * Github - [defjunior](https://www.github.com/defjunior)
 * Discord - [juniorislazy](https://www.discordapp.com/users/232270982495076352)
 * Group - [J1 Development](https://www.roblox.com/communities/8847443/J1-Development#!/about)
