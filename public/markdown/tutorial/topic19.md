@@ -79,6 +79,28 @@ bulldog:speak() -- Outputs: Bulldog barks.
 bulldog:takeDamage(20) -- This function isn't in Dog but is defined in Animal
 ```
 
+Sometimes, you want to inherit the features of two different parent classes
+In order to do this, return a function which searches for the corresponding attributes
+from both classes, for the __index metamethod.
+
+```lua
+-- Example Function, pretend "parents" is a list of classes
+function search(attribute,parents)
+    for a,b in pairs(parents) do
+        for c,d in pairs(b) do
+            if d == attribute then
+                return d
+            end
+        end
+    end
+end
+
+setmetatable(class,{__index = function(a,b)
+    return search(b,parents)
+end
+}
+```
+
 ### Overriding Methods
 
 Subclasses can override methods from their parent class by redefining them.
