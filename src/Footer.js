@@ -3,7 +3,7 @@ function Footer() {
     return (
         <div className ="Footer">
             <nav className='info'>
-                <p>2024</p>
+                <p>2025</p>
             </nav>
             
         </div>
